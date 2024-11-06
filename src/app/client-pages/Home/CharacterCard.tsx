@@ -15,7 +15,7 @@ const CharacterCard = ({ character }: CharacterCardProps) => {
           alt={character.name}
           width={229}
           height={220}
-          className="aspect-[1/1] w-full rounded-l-[8px] md:min-w-[229px] md:min-h-[220px]"
+          className="aspect-[1/1] h-full w-full rounded-l-[8px] md:min-w-[229px] md:min-h-[220px]"
         />
       </div>
       <div className="flex flex-col justify-between py-[10px] pl-[20px] md:pl-0">
