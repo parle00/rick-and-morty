@@ -10,7 +10,7 @@ const AppLayout = ({ children }: AppLayoutProps) => {
   return (
     <>
       <Header />
-      <main className="bg-gray-700">
+      <main className="bg-gray-700 min-h-[100vh]">
         <AppContainer>{children}</AppContainer>
       </main>
     </>
