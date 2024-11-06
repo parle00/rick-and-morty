@@ -20,7 +20,7 @@ const CharacterCard = ({ character }: CharacterCardProps) => {
       </div>
       <div className="flex flex-col justify-between py-[10px] pl-[20px] md:pl-0 m-auto md:m-0">
         <div className="flex flex-col">
-          <span className="text-white hover:text-orange-500">
+          <span className="text-white hover:text-orange-500  text-[12px] md:text-[14px]">
             {character.name}
           </span>
           <div className="flex flex-row items-center gap-[10px]">
@@ -36,13 +36,13 @@ const CharacterCard = ({ character }: CharacterCardProps) => {
             <span>{`${character.status} - ${character.species}`}</span>
           </div>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col text-[12px] md:text-[14px]">
           <span>Last known location:</span>
           <div className="text-white hover:text-orange-500">
             <span>{character.location.name}</span>
           </div>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col  text-[12px] md:text-[14px]">
           <span>Gender:</span>
           <div className="flex flex-row items-center gap-[10px]">
             <span className="text-white hover:text-orange-500">
