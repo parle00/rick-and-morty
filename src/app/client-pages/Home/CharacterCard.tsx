@@ -8,7 +8,7 @@ interface CharacterCardProps {
 
 const CharacterCard = ({ character }: CharacterCardProps) => {
   return (
-    <div className="bg-[#3c3e44] flex flex-col md:flex-row rounded-[9px] cursor-pointer gap-[15px] p-[20px] md:p-0">
+    <div className="bg-[#3c3e44] flex flex-col md:flex-row rounded-[9px] cursor-pointer gap-[15px] p-[20px] w-fit md:w-full m-auto md:p-0">
       <div className="">
         <Image
           src={character.image}
